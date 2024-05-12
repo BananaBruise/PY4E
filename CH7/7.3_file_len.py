@@ -1,4 +1,8 @@
-fhand = open('mbox-short.txt')
+import sys
+sys.path.append("..")
+from common.common import *
+
+fhand = open(MBOX_SHORT)
 inp = fhand.read()
 #total len of file
 print(len(inp))
